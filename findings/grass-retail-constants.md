@@ -336,6 +336,8 @@ The `RunGrass` vertex shader takes the length of clip-space XYZ before division 
 
 In zero-based group 2 of `shaders011.fxp`, lit alpha-tested pixel records 9–15 compare texture alpha times the combined fade with the cutoff and write output alpha `1` for surviving pixels. The four depth-style pixel records 7, 8, 16, and 17 use that product for cutoff and write it as output alpha. Opaque lit pixel records 0–6 ignore the combined fade.
 
+Superseded or clarified by findings/grass-retail-leftovers.md (G18, independently reviewed 2026-11-21).
+
 ### G19 — Layout constants
 
 - A cell is 4096 units wide. It contains four 2048-unit quadrants, each 8 by 8 tiles at the shipped step. Tiles are 256 units wide. Each quadrant uses a 17 by 17 blend grid with 128-unit sample spacing and 289 samples per weighted slot.
