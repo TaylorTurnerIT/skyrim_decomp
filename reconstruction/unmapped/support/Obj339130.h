@@ -1,0 +1,245 @@
+// Source exposure: mixed (pinned image listing; CrashLogger PDB names; sibling source).
+// Code origin: written from the pinned image listing; see Adapted bodies.
+// Adapted bodies: Obj339130::GetGroupTargetCount, treated as adapted: shaped like Cmd_GetGroupTargetCount_Eval in the sibling source cited below (CC0-1.0).
+// Sibling source: momusdigital/fnv_decomp@2b07cb3e src/fallout_shared/tesconditionfunctions.cpp:14525
+// SPDX-License-Identifier: CC0-1.0
+// Obj339130, Group339130, Ref339130, Actor339130: GUESS(low); PDB lists GameFunc__native::GetGroupTargetCount_1402DCB80
+// Obj339130::GetGroupTargetCount: CRASHLOGGER_PDB(59818@2026.10.24)
+#pragma once
+
+#include <cstdint>
+
+struct Group339130
+{
+    std::uint8_t unk00[0x18];
+    std::uint32_t targetCount;
+};
+
+struct Ref339130
+{
+    virtual void Slot000();
+    std::uint8_t unk08[0x12];
+    std::uint8_t formType;
+};
+
+struct Actor339130 : Ref339130
+{
+    virtual void Slot001();
+    virtual void Slot002();
+    virtual void Slot003();
+    virtual void Slot004();
+    virtual void Slot005();
+    virtual void Slot006();
+    virtual void Slot007();
+    virtual void Slot008();
+    virtual void Slot009();
+    virtual void Slot00a();
+    virtual void Slot00b();
+    virtual void Slot00c();
+    virtual void Slot00d();
+    virtual void Slot00e();
+    virtual void Slot00f();
+    virtual void Slot010();
+    virtual void Slot011();
+    virtual void Slot012();
+    virtual void Slot013();
+    virtual void Slot014();
+    virtual void Slot015();
+    virtual void Slot016();
+    virtual void Slot017();
+    virtual void Slot018();
+    virtual void Slot019();
+    virtual void Slot01a();
+    virtual void Slot01b();
+    virtual void Slot01c();
+    virtual void Slot01d();
+    virtual void Slot01e();
+    virtual void Slot01f();
+    virtual void Slot020();
+    virtual void Slot021();
+    virtual void Slot022();
+    virtual void Slot023();
+    virtual void Slot024();
+    virtual void Slot025();
+    virtual void Slot026();
+    virtual void Slot027();
+    virtual void Slot028();
+    virtual void Slot029();
+    virtual void Slot02a();
+    virtual void Slot02b();
+    virtual void Slot02c();
+    virtual void Slot02d();
+    virtual void Slot02e();
+    virtual void Slot02f();
+    virtual void Slot030();
+    virtual void Slot031();
+    virtual void Slot032();
+    virtual void Slot033();
+    virtual void Slot034();
+    virtual void Slot035();
+    virtual void Slot036();
+    virtual void Slot037();
+    virtual void Slot038();
+    virtual void Slot039();
+    virtual void Slot03a();
+    virtual void Slot03b();
+    virtual void Slot03c();
+    virtual void Slot03d();
+    virtual void Slot03e();
+    virtual void Slot03f();
+    virtual void Slot040();
+    virtual void Slot041();
+    virtual void Slot042();
+    virtual void Slot043();
+    virtual void Slot044();
+    virtual void Slot045();
+    virtual void Slot046();
+    virtual void Slot047();
+    virtual void Slot048();
+    virtual void Slot049();
+    virtual void Slot04a();
+    virtual void Slot04b();
+    virtual void Slot04c();
+    virtual void Slot04d();
+    virtual void Slot04e();
+    virtual void Slot04f();
+    virtual void Slot050();
+    virtual void Slot051();
+    virtual void Slot052();
+    virtual void Slot053();
+    virtual void Slot054();
+    virtual void Slot055();
+    virtual void Slot056();
+    virtual void Slot057();
+    virtual void Slot058();
+    virtual void Slot059();
+    virtual void Slot05a();
+    virtual void Slot05b();
+    virtual void Slot05c();
+    virtual void Slot05d();
+    virtual void Slot05e();
+    virtual void Slot05f();
+    virtual void Slot060();
+    virtual void Slot061();
+    virtual void Slot062();
+    virtual void Slot063();
+    virtual void Slot064();
+    virtual void Slot065();
+    virtual void Slot066();
+    virtual void Slot067();
+    virtual void Slot068();
+    virtual void Slot069();
+    virtual void Slot06a();
+    virtual void Slot06b();
+    virtual void Slot06c();
+    virtual void Slot06d();
+    virtual void Slot06e();
+    virtual void Slot06f();
+    virtual void Slot070();
+    virtual void Slot071();
+    virtual void Slot072();
+    virtual void Slot073();
+    virtual void Slot074();
+    virtual void Slot075();
+    virtual void Slot076();
+    virtual void Slot077();
+    virtual void Slot078();
+    virtual void Slot079();
+    virtual void Slot07a();
+    virtual void Slot07b();
+    virtual void Slot07c();
+    virtual void Slot07d();
+    virtual void Slot07e();
+    virtual void Slot07f();
+    virtual void Slot080();
+    virtual void Slot081();
+    virtual void Slot082();
+    virtual void Slot083();
+    virtual void Slot084();
+    virtual void Slot085();
+    virtual void Slot086();
+    virtual void Slot087();
+    virtual void Slot088();
+    virtual void Slot089();
+    virtual void Slot08a();
+    virtual void Slot08b();
+    virtual void Slot08c();
+    virtual void Slot08d();
+    virtual void Slot08e();
+    virtual void Slot08f();
+    virtual void Slot090();
+    virtual void Slot091();
+    virtual void Slot092();
+    virtual void Slot093();
+    virtual void Slot094();
+    virtual void Slot095();
+    virtual void Slot096();
+    virtual void Slot097();
+    virtual void Slot098();
+    virtual void Slot099();
+    virtual void Slot09a();
+    virtual void Slot09b();
+    virtual void Slot09c();
+    virtual void Slot09d();
+    virtual void Slot09e();
+    virtual void Slot09f();
+    virtual void Slot0a0();
+    virtual void Slot0a1();
+    virtual void Slot0a2();
+    virtual void Slot0a3();
+    virtual void Slot0a4();
+    virtual void Slot0a5();
+    virtual void Slot0a6();
+    virtual void Slot0a7();
+    virtual void Slot0a8();
+    virtual void Slot0a9();
+    virtual void Slot0aa();
+    virtual void Slot0ab();
+    virtual void Slot0ac();
+    virtual void Slot0ad();
+    virtual void Slot0ae();
+    virtual void Slot0af();
+    virtual void Slot0b0();
+    virtual void Slot0b1();
+    virtual void Slot0b2();
+    virtual void Slot0b3();
+    virtual void Slot0b4();
+    virtual void Slot0b5();
+    virtual void Slot0b6();
+    virtual void Slot0b7();
+    virtual void Slot0b8();
+    virtual void Slot0b9();
+    virtual void Slot0ba();
+    virtual void Slot0bb();
+    virtual void Slot0bc();
+    virtual void Slot0bd();
+    virtual void Slot0be();
+    virtual void Slot0bf();
+    virtual void Slot0c0();
+    virtual void Slot0c1();
+    virtual void Slot0c2();
+    virtual void Slot0c3();
+    virtual void Slot0c4();
+    virtual void Slot0c5();
+    virtual void Slot0c6();
+    virtual void Slot0c7();
+    virtual void Slot0c8();
+    virtual void Slot0c9();
+    virtual void Slot0ca();
+    virtual void Slot0cb();
+    virtual void Slot0cc();
+    virtual void Slot0cd();
+    virtual void Slot0ce();
+    virtual void Slot0cf();
+    virtual void Slot0d0();
+    virtual void Slot0d1();
+    virtual void Slot0d2();
+    virtual void Slot0d3();
+    virtual Group339130* GetCombatGroup();
+};
+
+class Obj339130
+{
+public:
+    static bool GetGroupTargetCount(Ref339130* ref, void* param1, void* param2, double* result);
+};
